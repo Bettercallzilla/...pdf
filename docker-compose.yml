@@ -1,9 +1,0 @@
-version: '3.8'
-
-services:
-  pdf-ocr:
-    build: ./app
-    ports:
-      - "5055:5055"
-    volumes:
-      - ./app/uploads:/app/uploads
